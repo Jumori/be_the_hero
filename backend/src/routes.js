@@ -26,7 +26,7 @@ routes.post('/ongs', celebrate({
     ong: Joi.object().keys({
       name: Joi.string().required(),
       email: Joi.string().required().email(),
-      phone: Joi.number().required().min(10).max(11),
+      phone: Joi.string().required().min(10).max(11),
       city: Joi.string().required(),
       uf: Joi.string().required().length(2)
     })

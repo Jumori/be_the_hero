@@ -1,4 +1,5 @@
 const crypto = require('crypto');
+const generateUniqueId = require('./../utils/generateUniqueId');
 const connection = require('./../database/connection');
 
 // EXPORTS --------------------------------------------------------------------- 
@@ -19,7 +20,7 @@ module.exports = {
       city,
       uf
     } = request.body.ong;
-    const id = crypto.randomBytes(4).toString('HEX');
+    const id = generateUniqueId();
 
     // CONNECT WITH DATABASE AND SENT THE COLUMNS THAT WE WANT
     await connection('ongs').insert({

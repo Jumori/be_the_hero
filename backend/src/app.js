@@ -39,4 +39,7 @@ app.use(routes);
 app.use(errors());
 
 // LISTEN TO PORT 3333
-app.listen(3333);
+// app.listen(3333);
+
+// EXPORT APP DUE TO JEST TESTS
+module.exports = app;
