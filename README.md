@@ -18,5 +18,14 @@ Rest API that ables us to:
 ### Frontend features
 The platform created in ReactJS ables ONGs to see all their active incidents, create new incidents and delete any of them.
 
+![alt text](https://github.com/Jumori/be_the_hero/blob/master/images/login.png "Login")
+![alt text](https://github.com/Jumori/be_the_hero/blob/master/images/create_ong.png "Create ONG")
+![alt text](https://github.com/Jumori/be_the_hero/blob/master/images/profile.png "Incident List")
+![alt text](https://github.com/Jumori/be_the_hero/blob/master/images/create_incident.png "Create Incident")
+
 ### Mobile features
 The mobile app created in React Native ables final users to see all incidents availables from all ONGs and contact them via WhatsApp or e-mail.
+
+Incidents List             |  Incident Details
+:-------------------------:|:-------------------------:
+![](https://github.com/Jumori/be_the_hero/blob/master/images/list.png)  |  ![](https://github.com/Jumori/be_the_hero/blob/master/images/details.png)
