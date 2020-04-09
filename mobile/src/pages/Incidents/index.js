@@ -40,7 +40,7 @@ export default function Incidents() {
   // ON LOAD -------------------------------------------------------------------
   useEffect(() => {
     loadingIncidents();
-  });
+  }, []);
 
   // EXPORT COMPONENT ----------------------------------------------------------
   return (
